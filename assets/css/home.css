@@ -258,18 +258,20 @@
     }
   
     .menu-btn{
-      background: url(/assets/img/menu.png)no-repeat;
+      background: url('../img/menu.png')no-repeat;
       background-size: 30px;
       background-position: center;
       width: 40px;
       height: 40px;
       cursor: pointer;
       transition: 0.3s ease;
+      visibility: visible;
     }
   
     .menu-btn.active{
+      visibility: visible;
       z-index: 999;
-      background: url(/assets/img/close.png)no-repeat;
+      background: url('../img/close.png')no-repeat;
       background-size: 25px;
       background-position: center;
       transition: 0.3s ease;
